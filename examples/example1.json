@@ -1,0 +1,30 @@
+[
+  {
+    "type": "shell",
+    "name": "cpu-info",
+    "cmd": "/home/gchudnov/Projects/doomsday-metrics/examples/cpu-info.sh",
+    "interval": "5s",
+    "queries": [
+      {
+        "type": "text",
+        "name": "cpu",
+        "textPath": "",
+        "valueType": "double"
+      }
+    ]
+  },
+  {
+    "type": "shell",
+    "name": "rnd-info",
+    "cmd": "/home/gchudnov/Projects/doomsday-metrics/examples/random.sh",
+    "interval": "5s",
+    "queries": [
+      {
+        "type": "text",
+        "name": "rnd",
+        "textPath": "",
+        "valueType": "long"
+      }
+    ]
+  }
+]
