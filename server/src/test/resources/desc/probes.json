@@ -1,0 +1,37 @@
+[
+  {
+    "type": "shell",
+    "name": "test-shell-probe",
+    "cmd": "echo \"123\"",
+    "interval": "10s",
+    "queries": [
+      {
+        "type": "csv",
+        "name": "csv-query",
+        "csvPath": "name=as.node.ignore.left.demand;name",
+        "separator": ";",
+        "valueType": "string"
+      },
+      {
+        "type": "json",
+        "name": "json-query",
+        "jsonPath": "$.gauges.['threadStates.deadlock.count'].value",
+        "valueType": "double"
+      },
+      {
+        "type": "text",
+        "name": "text-query",
+        "textPath": "123",
+        "valueType": "big-decimal"
+      }
+    ]
+  },
+  {
+    "type": "http",
+    "name": "test-http-probe",
+    "url": "http://localhost:7979/metrics",
+    "interval": "30s",
+    "queries": [
+    ]
+  }
+]

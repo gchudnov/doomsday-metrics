@@ -1,0 +1,408 @@
+{
+  "gauges": {
+    "threadStates.deadlock.count": {
+      "value": 0.0
+    },
+    "mem.pools.Tenured-Gen.used": {
+      "value": 1.903292E7
+    },
+    "mem.pools.Metaspace.used": {
+      "value": 7.2576952E7
+    },
+    "mem.pools.CodeHeap-'non-profiled-nmethods'.max": {
+      "value": 1.22916864E8
+    },
+    "mem.total.max": {
+      "value": 3.89283839E8
+    },
+    "cachedThreadStates.waiting.count": {
+      "value": 12.0
+    },
+    "mem.pools.Eden-Space.used-after-gc": {
+      "value": 0.0
+    },
+    "mem.total.used": {
+      "value": 1.27988576E8
+    },
+    "cachedThreadStates.new.count": {
+      "value": 0.0
+    },
+    "mem.pools.CodeHeap-'non-profiled-nmethods'.committed": {
+      "value": 6422528.0
+    },
+    "mem.non-heap.usage": {
+      "value": -1.05654504E8
+    },
+    "cachedThreadStates.blocked.count": {
+      "value": 0.0
+    },
+    "mem.pools.Survivor-Space.used-after-gc": {
+      "value": 497480.0
+    },
+    "threadStates.blocked.count": {
+      "value": 0.0
+    },
+    "mem.pools.Survivor-Space.init": {
+      "value": 262144.0
+    },
+    "buffers.mapped.count": {
+      "value": 0.0
+    },
+    "mem.pools.CodeHeap-'profiled-nmethods'.max": {
+      "value": 1.22912768E8
+    },
+    "mem.total.init": {
+      "value": 1.605632E7
+    },
+    "mem.pools.Survivor-Space.max": {
+      "value": 1.3369344E7
+    },
+    "mem.heap.committed": {
+      "value": 3.520512E7
+    },
+    "threadStates.daemon.count": {
+      "value": 11.0
+    },
+    "mem.pools.Compressed-Class-Space.used": {
+      "value": 9601968.0
+    },
+    "buffers.direct.used": {
+      "value": 143360.0
+    },
+    "mem.non-heap.committed": {
+      "value": 1.12484352E8
+    },
+    "mem.pools.Survivor-Space.committed": {
+      "value": 1179648.0
+    },
+    "mem.heap.max": {
+      "value": 3.8928384E8
+    },
+    "mem.pools.Compressed-Class-Space.usage": {
+      "value": 0.008942529559135437
+    },
+    "mem.pools.Tenured-Gen.used-after-gc": {
+      "value": 1.4515968E7
+    },
+    "mem.pools.Tenured-Gen.init": {
+      "value": 5636096.0
+    },
+    "mem.pools.CodeHeap-'profiled-nmethods'.used": {
+      "value": 1.5710336E7
+    },
+    "cachedThreadStates.count": {
+      "value": 26.0
+    },
+    "mem.pools.CodeHeap-'non-nmethods'.init": {
+      "value": 2555904.0
+    },
+    "mem.pools.CodeHeap-'non-profiled-nmethods'.usage": {
+      "value": 0.05214685594321704
+    },
+    "gc.MarkSweepCompact.count": {
+      "value": 4.0
+    },
+    "mem.pools.Compressed-Class-Space.max": {
+      "value": 1.073741824E9
+    },
+    "mem.pools.CodeHeap-'non-nmethods'.max": {
+      "value": 5828608.0
+    },
+    "mem.heap.used": {
+      "value": 2.2379528E7
+    },
+    "threadStates.terminated.count": {
+      "value": 0.0
+    },
+    "mem.non-heap.max": {
+      "value": -1.0
+    },
+    "buffers.direct.count": {
+      "value": 3.0
+    },
+    "mem.pools.Metaspace.committed": {
+      "value": 7.5587584E7
+    },
+    "mem.pools.Tenured-Gen.committed": {
+      "value": 2.4195072E7
+    },
+    "gc.Copy.time": {
+      "value": 263.0
+    },
+    "cachedThreadStates.terminated.count": {
+      "value": 0.0
+    },
+    "buffers.direct.capacity": {
+      "value": 143360.0
+    },
+    "mem.pools.Eden-Space.max": {
+      "value": 1.0747904E8
+    },
+    "mem.non-heap.used": {
+      "value": 1.05654504E8
+    },
+    "buffers.mapped.used": {
+      "value": 0.0
+    },
+    "cachedThreadStates.deadlock.count": {
+      "value": 0.0
+    },
+    "gc.Copy.count": {
+      "value": 108.0
+    },
+    "mem.pools.Tenured-Gen.usage": {
+      "value": 0.07090315222740173
+    },
+    "mem.pools.Compressed-Class-Space.committed": {
+      "value": 1.114112E7
+    },
+    "mem.pools.Metaspace.usage": {
+      "value": 0.9601702840508832
+    },
+    "mem.pools.Compressed-Class-Space.init": {
+      "value": 0.0
+    },
+    "mem.pools.CodeHeap-'non-nmethods'.committed": {
+      "value": 2555904.0
+    },
+    "threadStates.runnable.count": {
+      "value": 9.0
+    },
+    "cachedThreadStates.runnable.count": {
+      "value": 9.0
+    },
+    "mem.pools.Eden-Space.init": {
+      "value": 2228224.0
+    },
+    "mem.pools.CodeHeap-'non-profiled-nmethods'.init": {
+      "value": 2555904.0
+    },
+    "cachedThreadStates.timed_waiting.count": {
+      "value": 5.0
+    },
+    "mem.pools.Survivor-Space.usage": {
+      "value": 0.03721050187653186
+    },
+    "threadStates.count": {
+      "value": 26.0
+    },
+    "cachedThreadStates.daemon.count": {
+      "value": 11.0
+    },
+    "threadStates.timed_waiting.count": {
+      "value": 5.0
+    },
+    "buffers.mapped.capacity": {
+      "value": 0.0
+    },
+    "mem.pools.Metaspace.max": {
+      "value": -1.0
+    },
+    "mem.pools.CodeHeap-'non-profiled-nmethods'.used": {
+      "value": 6409728.0
+    },
+    "mem.pools.Survivor-Space.used": {
+      "value": 497480.0
+    },
+    "threadStates.waiting.count": {
+      "value": 12.0
+    },
+    "cachedThreadStates.deadlocks": {},
+    "mem.non-heap.init": {
+      "value": 7667712.0
+    },
+    "threadStates.deadlocks": {},
+    "mem.pools.CodeHeap-'non-nmethods'.used": {
+      "value": 1355520.0
+    },
+    "mem.pools.CodeHeap-'profiled-nmethods'.usage": {
+      "value": 0.1278169571447614
+    },
+    "mem.pools.Eden-Space.usage": {
+      "value": 0.026931837128429878
+    },
+    "gc.MarkSweepCompact.time": {
+      "value": 113.0
+    },
+    "mem.pools.CodeHeap-'non-nmethods'.usage": {
+      "value": 0.23256324666198172
+    },
+    "mem.heap.usage": {
+      "value": 0.05766402222090699
+    },
+    "mem.total.committed": {
+      "value": 1.47689472E8
+    },
+    "mem.pools.CodeHeap-'profiled-nmethods'.committed": {
+      "value": 1.6777216E7
+    },
+    "mem.pools.Eden-Space.committed": {
+      "value": 9830400.0
+    },
+    "mem.pools.Metaspace.init": {
+      "value": 0.0
+    },
+    "mem.heap.init": {
+      "value": 8388608.0
+    },
+    "mem.pools.CodeHeap-'profiled-nmethods'.init": {
+      "value": 2555904.0
+    },
+    "mem.pools.Tenured-Gen.max": {
+      "value": 2.68435456E8
+    },
+    "threadStates.new.count": {
+      "value": 0.0
+    },
+    "mem.pools.Eden-Space.used": {
+      "value": 2917272.0
+    }
+  },
+  "timers": {
+    "db.data.read-value-batch": {
+      "count": 4,
+      "max": 0.0,
+      "min": 0.0,
+      "mean": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "p98": 0.0,
+      "p99": 0.0,
+      "p999": 0.0,
+      "m1_rate": 0.0,
+      "m5_rate": 0.0,
+      "m15_rate": 1.181788611742825E-4,
+      "mean_rate": 5.955814583881936E-4,
+      "duration_units": "milliseconds",
+      "rate_units": "calls/second"
+    },
+    "write.batch": {
+      "count": 2,
+      "max": 0.0,
+      "min": 0.0,
+      "mean": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "p98": 0.0,
+      "p99": 0.0,
+      "p999": 0.0,
+      "m1_rate": 0.0,
+      "m5_rate": 0.0,
+      "m15_rate": 1.1632892146821038E-4,
+      "mean_rate": 2.977994466028218E-4,
+      "duration_units": "milliseconds",
+      "rate_units": "calls/second"
+    }
+  },
+  "counters": {
+    "publish.event.failed": {
+      "count": 0
+    }
+  },
+  "histograms": {
+    "write.event.entry.size": {
+      "count": 2,
+      "max": 303.0,
+      "min": 303.0,
+      "mean": 303.0,
+      "p50": 303.0,
+      "p75": 303.0,
+      "p95": 303.0,
+      "p98": 303.0,
+      "p99": 303.0,
+      "p999": 303.0
+    },
+    "source.event.delay": {
+      "count": 4,
+      "max": 9247.0,
+      "min": 7640.0,
+      "mean": 9158.70154712012,
+      "p50": 9247.0,
+      "p75": 9247.0,
+      "p95": 9247.0,
+      "p98": 9247.0,
+      "p99": 9247.0,
+      "p999": 9247.0
+    },
+    "write.batch.size": {
+      "count": 2,
+      "max": 1.0,
+      "min": 1.0,
+      "mean": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "p98": 1.0,
+      "p99": 1.0,
+      "p999": 1.0
+    },
+    "db.data.read-value.size": {
+      "count": 4,
+      "max": 1.0,
+      "min": 1.0,
+      "mean": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "p98": 1.0,
+      "p99": 1.0,
+      "p999": 1.0
+    },
+    "write.event.entries.size": {
+      "count": 2,
+      "max": 1.0,
+      "min": 1.0,
+      "mean": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "p98": 1.0,
+      "p99": 1.0,
+      "p999": 1.0
+    },
+    "source.batch.size": {
+      "count": 4,
+      "max": 1.0,
+      "min": 1.0,
+      "mean": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "p98": 1.0,
+      "p99": 1.0,
+      "p999": 1.0
+    }
+  },
+  "meters": {
+    "db.data.read-value": {
+      "count": 4,
+      "mean_rate": 5.95580804863836E-4,
+      "m1_rate": 0.0,
+      "m5_rate": 0.0,
+      "m15_rate": 1.181788611742825E-4,
+      "units": "calls/second"
+    },
+    "write.event.successful": {
+      "count": 2,
+      "mean_rate": 2.978021374427091E-4,
+      "m1_rate": 0.0,
+      "m5_rate": 0.0,
+      "m15_rate": 1.1632892146821038E-4,
+      "units": "calls/second"
+    },
+    "source.event.rate": {
+      "count": 4,
+      "mean_rate": 5.955808037146434E-4,
+      "m1_rate": 0.0,
+      "m5_rate": 0.0,
+      "m15_rate": 1.181788611742825E-4,
+      "units": "calls/second"
+    }
+  },
+  "values": {
+    "is_active": true,
+    "some_date": "2012-04-23T18:25:43.511Z"
+  }
+}
