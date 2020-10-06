@@ -2,7 +2,6 @@ import sbt.Keys._
 import sbt._
 import sbtassembly.AssemblyPlugin.defaultUniversalScript
 
-autoStartServer := false
 Global / cancelable := true
 
 def itFilter(name: String): Boolean   = name endsWith "ITSpec"

@@ -12,7 +12,7 @@ object Dependencies {
     val zioConfig           = "1.0.0-RC27"
     val zioLogging          = "0.5.1"
     val fastparse           = "2.3.0"
-    val swearwolf           = "1.0.0-SNAPSHOT"
+    val swearwolf           = "1.0.0"
   }
 
   private val kindProjector = compilerPlugin(
