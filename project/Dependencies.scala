@@ -7,10 +7,10 @@ object Dependencies {
     val logbackClassic      = "1.2.3"
     val scalaLogging        = "3.9.2"
     val scopt               = "4.0.0-RC2"
-    val zio                 = "1.0.1"
-    val zioAsyncHttpBackend = "2.2.8"
+    val zio                 = "1.0.2"
+    val zioAsyncHttpBackend = "2.2.9"
     val zioConfig           = "1.0.0-RC27"
-    val zioLogging          = "0.5.1"
+    val zioLogging          = "0.5.2"
     val fastparse           = "2.3.0"
     val swearwolf           = "1.0.0"
   }
