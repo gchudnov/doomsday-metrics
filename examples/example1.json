@@ -2,7 +2,7 @@
   {
     "type": "shell",
     "name": "cpu-info",
-    "cmd": "/home/gchudnov/Projects/doomsday-metrics/examples/cpu-info.sh",
+    "cmd": "./cpu-info.sh",
     "interval": "5s",
     "queries": [
       {
@@ -16,7 +16,7 @@
   {
     "type": "shell",
     "name": "rnd-info",
-    "cmd": "/home/gchudnov/Projects/doomsday-metrics/examples/random.sh",
+    "cmd": "./random.sh",
     "interval": "5s",
     "queries": [
       {
