@@ -12,6 +12,7 @@ import com.github.gchudnov.doom.run.{Run, RunConfig, RunException}
 import com.github.gchudnov.doom.screens.ScreenFactory
 import com.github.gchudnov.doom.screens.ScreenFactory._
 import com.github.gchudnov.swearwolf.util.EventLoop
+import com.github.gchudnov.doom.{BuildInfo => AppBuildInfo}
 import scopt.{OParser, OParserBuilder}
 import sttp.client.asynchttpclient.zio.AsyncHttpClientZioBackend
 import zio._
@@ -25,8 +26,8 @@ object Doom extends App {
   val parser: OParser[Unit, DoomConfig] = {
     import builder._
     OParser.sequence(
-      programName(BuildInfo.name),
-      head(BuildInfo.name, BuildInfo.version),
+      programName(AppBuildInfo.name),
+      head(AppBuildInfo.name, AppBuildInfo.version),
       help("help").text("prints this usage text."),
       version("version"),
       opt[Unit]("debug")
