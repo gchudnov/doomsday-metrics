@@ -1,6 +1,6 @@
 # doomsday-metrics
 
-A way to collect and display system metrics in the terminal when all other monitoring systems are down.
+Collecting and displaying system metrics in the terminal.
 
 ## Preview
 
