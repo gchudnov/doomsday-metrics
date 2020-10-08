@@ -7,7 +7,7 @@ object Dependencies {
     val logbackClassic      = "1.2.3"
     val scalaLogging        = "3.9.2"
     val scopt               = "4.0.0-RC2"
-    val zio                 = "1.0.2"
+    val zio                 = "1.0.0"
     val zioAsyncHttpBackend = "2.2.9"
     val zioConfig           = "1.0.0-RC27"
     val zioLogging          = "0.5.2"

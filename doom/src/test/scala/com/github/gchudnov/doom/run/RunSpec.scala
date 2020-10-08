@@ -50,7 +50,7 @@ object RunSpec extends DefaultRunnableSpec {
                         }
                       })
         } yield {
-          val expected = Resources.string("run/run-metrics.txt").toTry.get
+          val expected = Resources.string("run/run-spec-output.txt").toTry.get
           assert(actual)(equalTo(expected))
         }
 
