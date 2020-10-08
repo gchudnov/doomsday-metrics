@@ -145,7 +145,7 @@ The returned data can be processed by queries specified in this probe.
 
 Each probe should contain a collection of queries to extract one or more values from the response.
 If no queries are provided, the data is discarded and nothing is displayed on the screen.
-Application supports 3 types of queries: [csv](CSV-Queries), [json](JSON-Queries) and [text](#TEXT-Queries).
+Application supports 3 types of queries: [csv](#CSV-Queries), [json](#JSON-Queries) and [text](#TEXT-Queries).
 
 One query extracts only one value.
 
