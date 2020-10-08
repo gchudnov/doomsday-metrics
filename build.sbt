@@ -49,7 +49,8 @@ lazy val doom = (project in file("doom"))
     buildInfoKeys := Seq[BuildInfoKey](name, version, scalaVersion, sbtVersion),
     buildInfoPackage := "com.github.gchudnov.doom",
     mainClass in assembly := Some("com.github.gchudnov.doom.Doom"),
-    assemblyOption in assembly := (assemblyOption in assembly).value.copy(prependShellScript = Some(defaultUniversalScript(shebang = true))),
+    assemblyOption in assembly := (assemblyOption in assembly).value.copy(prependShellScript = Some(defaultUniversalScript(shebang = false))),
+    assemblyOutputPath in assembly := new File(s"./target/${name.value}.jar"),
     assemblyJarName in assembly := s"${name.value}"
   )
 

@@ -4,7 +4,7 @@ Collecting and displaying system metrics in the terminal.
 
 ## Preview
 
-![preview](res/preview.png)
+![preview](res/images/preview.png)
 
 ## Usage
 
