@@ -25,11 +25,14 @@ final class CsvDocException(message: String, t: Throwable) extends RuntimeExcept
  *
  * in query parameters, 'path' is a csv-path of the value to fetch.
  *
- * examples of csv-queries:
- *   name=123;value
- *                    1) select a column C1 that named 'name'.
- *                    2) inside of the column C1 find a row R where value cell-value equal to '123'.
- *                    3) select a column C2 that named 'value' and fetch the cell-value on row R.
+ * an examples of csv-query:
+ * C1=V1;C2
+ *
+ * it translates to the following actions:
+ *
+ * 1. select a column named C1.
+ * 2. inside of the selected column C1, find a row R where the value equals to 'V1'.
+ * 3. given row R, select the cell in the column C2. That is the value returned from the query.
  */
 final case class CsvDoc(m: Map[String, List[String]]) extends Doc {
   import CsvDoc._
