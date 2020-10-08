@@ -31,6 +31,7 @@ lazy val allSettings = Settings.shared ++ testSettings ++ itSettings
 
 lazy val server = (project in file("server"))
   .settings(allSettings: _*)
+  .settings(Settings.testZioSettings)
   .settings(
     name := "server",
     libraryDependencies ++= Dependencies.Server
