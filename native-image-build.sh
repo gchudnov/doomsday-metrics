@@ -2,18 +2,14 @@
 
 # 20.2.0.r11-grl
 
-# cat ./res/graalvm/init-run-time.txt | tr '\n' ','
-
-#expost BUILD_INIT_LIST=ch.qos.logback.classic.Logger
-#  --initialize-at-build-time="${BUILD_INIT_LIST}" \
-
 #sbt "test; doom/assembly"
 
-export RUNTIME_INIT_LIST='io.netty.util.internal.logging.Log4JLogger'
+BUILD_INIT_LIST="$(cat ./res/graalvm/init-build-time.txt | tr '\n' ',')"
+RUNTIME_INIT_LIST="$(cat ./res/graalvm/init-run-time.txt | tr '\n' ',')"
 
 native-image \
   --verbose \
-  --initialize-at-build-time \
+  --initialize-at-build-time="${BUILD_INIT_LIST}" \
   --initialize-at-run-time="${RUNTIME_INIT_LIST}" \
   --no-fallback \
   --allow-incomplete-classpath \
