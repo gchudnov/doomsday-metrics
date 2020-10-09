@@ -237,7 +237,7 @@ If the value cannot be converted to the specified type, an error will be generat
 To build an executable, run the following sbt-task:
 
 ```sbt
-doom/assembly
+client/assembly
 ```
 
 The executable will be created in './target' directory.

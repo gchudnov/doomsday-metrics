@@ -13,6 +13,7 @@ object Dependencies {
     val zioLogging          = "0.5.2"
     val fastparse           = "2.3.0"
     val swearwolf           = "1.0.0"
+    val svmSubs             = "20.2.0"
   }
 
   private val kindProjector = compilerPlugin(
@@ -23,7 +24,13 @@ object Dependencies {
     kindProjector
   )
 
-  private val logbackClassic = "ch.qos.logback"              % "logback-classic" % versions.logbackClassic
+  private val svmSubs = "org.scalameta" %% "svm-subs" % versions.svmSubs % "compile"
+
+  private val internal = Seq(
+    svmSubs
+  )
+
+  private val logbackClassic = "ch.qos.logback" % "logback-classic" % versions.logbackClassic
 
   private val scopt    = "com.github.scopt"   %% "scopt"     % versions.scopt
   private val jsonpath = "com.jayway.jsonpath" % "json-path" % versions.jsonpath
@@ -41,7 +48,7 @@ object Dependencies {
 
   private val zioAsyncHttpBackend = "com.softwaremill.sttp.client" %% "async-http-client-backend-zio" % versions.zioAsyncHttpBackend
 
-  private val swearwolfCore = "com.github.gchudnov" %% "swearwolf-core" % versions.swearwolf
+  private val swearwolfCore  = "com.github.gchudnov" %% "swearwolf-core"  % versions.swearwolf
   private val swearwolfWoods = "com.github.gchudnov" %% "swearwolf-woods" % versions.swearwolf
 
   val Doom: Seq[ModuleID] = {
@@ -65,7 +72,7 @@ object Dependencies {
       zioTestMagnolia,
       zioTestSbt
     ) map (_ % "test")
-    compile ++ test ++ compiler
+    compile ++ test ++ compiler ++ internal
   }
 
   val Server: Seq[ModuleID] = {
@@ -87,7 +94,7 @@ object Dependencies {
       zioTestMagnolia,
       zioTestSbt
     ) map (_ % "test")
-    compile ++ test ++ compiler
+    compile ++ test ++ compiler ++ internal
   }
 
 }

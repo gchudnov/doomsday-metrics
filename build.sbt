@@ -37,7 +37,7 @@ lazy val server = (project in file("server"))
     libraryDependencies ++= Dependencies.Server
   )
 
-lazy val doom = (project in file("doom"))
+lazy val client = (project in file("client"))
   .enablePlugins(BuildInfoPlugin)
   .dependsOn(server)
   .settings(allSettings: _*)
@@ -55,7 +55,7 @@ lazy val doom = (project in file("doom"))
   )
 
 lazy val root = (project in file("."))
-  .aggregate(doom, server)
+  .aggregate(client, server)
   .settings(allSettings: _*)
   .settings(
     name := "doomsday-metrics"
