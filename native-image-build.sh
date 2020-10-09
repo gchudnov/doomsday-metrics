@@ -21,4 +21,4 @@ native-image \
   -H:ReflectionConfigurationFiles=./res/graalvm/reflection.json \
   -H:+TraceClassInitialization \
   -H:+StackTrace \
-  -jar ./target/doom.jar doom
+  -jar ./target/doom.jar doom-cli

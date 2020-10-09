@@ -1,1 +1,4 @@
-ch.qos.logback.classic.Logger
+io.netty.handler.ssl.ReferenceCountedOpenSslContext
+io.netty.util.internal.logging.Log4JLogger
+io.netty.handler.ssl.JdkNpnApplicationProtocolNegotiator
+org.asynchttpclient
