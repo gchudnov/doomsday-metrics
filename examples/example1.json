@@ -1,0 +1,30 @@
+[
+  {
+    "type": "shell",
+    "name": "cpu-info",
+    "cmd": "./cpu-info.sh",
+    "interval": "5s",
+    "queries": [
+      {
+        "type": "text",
+        "name": "cpu",
+        "textPath": "",
+        "valueType": "double"
+      }
+    ]
+  },
+  {
+    "type": "shell",
+    "name": "rnd-info",
+    "cmd": "./random.sh",
+    "interval": "5s",
+    "queries": [
+      {
+        "type": "text",
+        "name": "rnd",
+        "textPath": "",
+        "valueType": "long"
+      }
+    ]
+  }
+]

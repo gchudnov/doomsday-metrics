@@ -1,0 +1,22 @@
+[
+  {
+    "type": "http",
+    "name": "date-time",
+    "url": "http://date.jsontest.com/",
+    "interval": "5s",
+    "queries": [
+      {
+        "type": "json",
+        "name": "time",
+        "jsonPath": "$.time",
+        "valueType": "string"
+      },
+      {
+        "type": "json",
+        "name": "milliseconds_since_epoch",
+        "jsonPath": "$.milliseconds_since_epoch",
+        "valueType": "long"
+      }
+    ]
+  }
+]

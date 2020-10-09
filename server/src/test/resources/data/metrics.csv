@@ -1,0 +1,3 @@
+name;kind;ts;value;count;max;mean;min;stddev;p50;p75;p95;p98;p99;p999;m1_rate;m5_rate;m15_rate;mean_rate;rate_unit;duration_unit;bool_value;dt
+as.node.ignore.left.demand;counter;1572730123847;;1;0.345;;;;;;;;;;;;;;second;milliseconds;true;2012-04-23T18:25:43.511Z
+as.node.ignore.left.downstream-finish;counter;1572730123847;;0;;;;;;;;;;;;;;;second;milliseconds;false;2012-04-23T18:25:43.512Z
