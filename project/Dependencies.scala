@@ -13,7 +13,7 @@ object Dependencies {
     val zioLogging          = "0.5.2"
     val fastparse           = "2.3.0"
     val swearwolf           = "1.0.0"
-    val svmSubs             = "20.2.0"
+    val nativeImageSvm      = "20.2.0"
   }
 
   private val kindProjector = compilerPlugin(
@@ -24,11 +24,11 @@ object Dependencies {
     kindProjector
   )
 
-  private val svmSubs = "org.scalameta" %% "svm-subs" % versions.svmSubs % "compile"
+  private val nativeImageSvm = "org.graalvm.nativeimage" % "svm" % versions.nativeImageSvm
 
   private val internal = Seq(
-    svmSubs
-  )
+    nativeImageSvm
+  ).map(_ % "compile")
 
   private val logbackClassic = "ch.qos.logback" % "logback-classic" % versions.logbackClassic
 
