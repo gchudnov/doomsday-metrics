@@ -2,6 +2,8 @@
 
 Collecting and displaying system metrics in the terminal.
 
+![Scala CI](https://github.com/gchudnov/doomsday-metrics/workflows/Scala%20CI/badge.svg)
+
 ## Preview
 
 ![preview](res/images/preview.png)

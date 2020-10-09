@@ -13,7 +13,6 @@ object Dependencies {
     val zioLogging          = "0.5.2"
     val fastparse           = "2.3.0"
     val swearwolf           = "1.0.0"
-    val nativeImageSvm      = "20.2.0"
   }
 
   private val kindProjector = compilerPlugin(
@@ -23,12 +22,6 @@ object Dependencies {
   private val compiler = Seq(
     kindProjector
   )
-
-  private val nativeImageSvm = "org.graalvm.nativeimage" % "svm" % versions.nativeImageSvm
-
-  private val internal = Seq(
-    nativeImageSvm
-  ).map(_ % "compile")
 
   private val logbackClassic = "ch.qos.logback" % "logback-classic" % versions.logbackClassic
 
@@ -72,7 +65,7 @@ object Dependencies {
       zioTestMagnolia,
       zioTestSbt
     ) map (_ % "test")
-    compile ++ test ++ compiler ++ internal
+    compile ++ test ++ compiler
   }
 
   val Server: Seq[ModuleID] = {
@@ -94,7 +87,7 @@ object Dependencies {
       zioTestMagnolia,
       zioTestSbt
     ) map (_ % "test")
-    compile ++ test ++ compiler ++ internal
+    compile ++ test ++ compiler
   }
 
 }
